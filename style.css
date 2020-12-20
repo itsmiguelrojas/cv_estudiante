@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* BACKGROUND */
+.light {
+  background-color: #B7E64A;
+}
+
+.dark {
+  background-color: #006400;
+}
+
+/* TEXT COLOR */
+body {
+  color: #FFF;
+}
+
+.dark-text {
+  color: #006400;
+}
+
+/* SEPARATOR */
+.separator {
+  height: 1em;
+}
+
+/* PAGE SIZE */
+.cm-grid.container {
+  width: 816px;
+  height: 1344px;
+}
+
+/* IMAGE */
+.thumbnail img {
+  width: 170px;
+  border-radius: 50%;
+  border: 2px #006400 solid;
+  box-shadow: 5px 8px 8px rgba(0,0,0,0.2);
+}
+
+/* TITLES */
+h1, h2, .cm-card-header, .cm-row .cm-col-xs-6 {
+  font-family: 'Open Sans';
+  letter-spacing: 3px;
+}
+
+.cm-card .cm-card-header {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+/* ICONS */
+.cm-card .cm-card-header span, .cm-row #contact span {
+  font-size: 2em;
+}
+
+/* LINKS */
+a {
+  color: #006400;
+}
+
+.cm-card .cm-card-body p a {
+  color: #FFF;
+}
+
+/* CARD */
+
+.cm-grid .cm-row {
+  margin: 0 1em;
+}
+
+.cm-card {
+  box-shadow: none;
+}
+
+.cm-card .cm-card-body {
+  background-color: #41AB14;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+.cm-row .cm-card .cm-card-body p {
+  margin: 0;
+}
